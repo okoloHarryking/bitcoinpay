@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+#nav-bar{
+    background-color:rgb(24, 20, 20);
+    overflow: auto;
+}
+#nav-bar h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+}
+#nav-bar h1 a{
+    color: gold;
+}
+#nav-bar ul{
+    float: right;
+    list-style: none;
+}
+#nav-bar ul li{
+    float: left;
+
+}
+#nav-bar ul a{
+    color: white;
+    display: block;
+    padding: 15px 15px;
+}
+#nav-bar ul a:hover{
+background-color:rgb(238, 255, 0);
+color: gray;
+}
+#stock{
+    display: block;
+    text-align: center;
+   background-color: black;
+}
+#stock .container{
+    display: block;
+padding-top: 20px;
+font-size: 20px;
+}
+#stock .container h1{
+    color: rgb(209, 206, 195);
+
+}
+.pic{
+    display: block;
+    width: 100%;
+    background: url('./Screenshot\ \(3\).png')
+    no-repeat center center/cover;
+    height: 600px;
+
+}
+#info .container .dot li{
+    display: block;
+}
+#home-info{
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('./traxer-5kApSEYgMqw-unsplash.jpg') 
+    no-repeat center center/cover;
+    min-height: 100%;
+}
+#home-info .info-content{
+    background-color: gold;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#home-info .info-content h2{
+font-size: 30px;
+padding-bottom: 20px;
+}
+#home-info .info-content ul{
+    text-align: left;
+}
+#home-info .info-content ul li{
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+footer{
+    display: block;
+    background-color: rgb(190, 190, 190);
+}

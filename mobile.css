@@ -1,0 +1,25 @@
+
+#nav-bar .logo{
+   float: none; 
+   text-align: center;
+}
+#nav-bar ul{
+    display: block;
+    float: none;
+
+}
+#nav-bar ul li{
+    float: none;
+}
+#nav-bar ul li a{
+    text-align: center;
+    font-weight: bold;
+}
+#home-info .info-img{
+    display: none;
+}
+#home-info .info-content{
+    display: block;
+    float: none;
+    width: 100%;
+}
